@@ -36,6 +36,8 @@ module.exports.routes = {
   'POST /job': 'JobController.create',
   
    'POST /candidate': 'CandidateController.create',
+   
+   'POST /resume': 'ResumeController.create',
 
   /***************************************************************************
   *                                                                          *
