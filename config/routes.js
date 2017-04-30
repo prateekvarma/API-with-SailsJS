@@ -34,6 +34,8 @@ module.exports.routes = {
 
  
   'POST /job': 'JobController.create',
+  'PUT /job/:id': 'JobController.update',
+  'DELETE /job/:id': 'JobController.delete',
   
    'POST /candidate': 'CandidateController.create',
    
